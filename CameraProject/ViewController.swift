@@ -9,12 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    @IBAction func camera(_ sender: UIButton) {
+        
+        
+    }
+    
+    
+    @IBAction func album(_ sender: UIButton) {
+        
+        
+    }
+    
+    
+    @IBAction func save(_ sender: UIButton) {
+        
+        
+    }
+    
 }
 
